@@ -1,6 +1,6 @@
-from mongo_connection_manager import MongoConnectionManager
-from mongoquery import MongoQuery
-from version import VERSION
+from MongoDBLibrary.mongo_connection_manager import MongoConnectionManager
+from MongoDBLibrary.mongoquery import MongoQuery
+from MongoDBLibrary.version import VERSION
 
 
 class MongoDBLibrary(MongoConnectionManager, MongoQuery):
